@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scroll</title>
+  <script src="3.Scroll.js" defer></script>
+  <style>
+    body {
+      background-color: black;
+    }
+    .buttons{
+      position: fixed;
+      right: 25px;
+      /* float: right; */
+
+    }
+    #normal {
+      background-color: crimson;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+    #special {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      background-color: blue
+    }
+  </style>
+</head>
+<body>
+  <div class="buttons">
+    <button id="scrollUp">Scroll by 100px(y)</button>
+    <button id="gotoScroll">Scroll by 100(y)</button>
+    <button id="gotoSpecial">Scroll into special</button>
+  </div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="special"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+  <div id="normal"></div>
+</body>
+</html>
